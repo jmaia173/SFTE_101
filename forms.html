@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>forms</title>
+</head>
+<body>
 <h1>Welcome to my site</h1>
 <br>
 <p>Learn more about my soccer journey</p>
@@ -14,3 +20,29 @@
     <a href="contact.html">contact</a> |
     <a href="about-me.html">About me</a> 
 </nav>
+<br>
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+  <br>
+  <p>What is your goal by studying in the U.S?</p>
+  <input type="radio" id="soccer" name="goals" value="soccer">
+  <label for="soccer">soccer</label><br>
+  <input type="radio" id="basketball" name="goals" value="basketball">
+  <label for="basketball">Basketball</label><br>
+  <input type="radio" id="volleyball" name="goals" value="volleyball">
+  <label for="volleyball">Volleyball</label>
+  <input type="radio" id="tennis" name="goals" value="tennis">
+  <label for="tennis">Tennis</label>
+  <input type="radio" id="RegularStudent" name="goals" value="RegularStudent">
+  <label for="RegularStudent">Regular Student</label>
+  <br>
+  <textarea id="MoreInfo" name="MoreInfo"></textarea>
+  <br>
+  <input type="submit" value="Submit">
+
+</form>
+</body>
+</html>
