@@ -9,9 +9,11 @@
     p {color: black;}
     ol {color: green;}
     ul {color: red;}
-    body {padding: 10px; margin: 5px;}
+    body {padding: 10px; margin: 5px; text-align: center;}
     h4 {text-align: center;}
     img {display: block; margin-left: auto; margin-right: auto;}
+    div.container {text-align: center;}
+    ul.myUL {display: inline-block; text-align: left;}
 </style>
 </head>
 <header>
@@ -25,8 +27,8 @@
 <br>
 <p>A professional soccer player is a high intensity athlete that makes a living in the entertainement business that is the soccer world.</p> 
 <br>
-<div>
-<ol>
+<div class="container">
+    <ol class="myUL">
     <li>Real Madrid</li>
     <li>Fluminense</li>
     <li>Liverpool</li>
@@ -39,7 +41,8 @@
 <hr>
 <h2>Skill Section</h2>
 <br>
-<ul>
+<div class="container">
+    <ul class="myUL">
     <li><b>Speed</b></li>
     <li<u>Strenght</u></li>
     <li><u>Heading</u></li>
@@ -51,6 +54,7 @@
     <li><b>Passing</b></li>
     <li><u>Defending</u></li>
 </ul>
+</div>
 <hr>
 <h2>Styling with CSS</h2>
 <h4>done in code</h4>
