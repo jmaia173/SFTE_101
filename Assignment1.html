@@ -1,75 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Week 2 assignment</title>
-<link rel="stylesheet" href="styles.css">
+    <title>Week 2 Assignment</title>
+    <style>
+        body { background-color: white; color: black; }
+        .navbar { text-align: center; }
+        h1, h2, h3, h4, p { text-align: center; }
+        img { display: block; margin-left: auto; margin-right: auto; }
+        .container { text-align: center; }
+        ol.myUL { display: inline-block; text-align: left; padding: 0; }
+        table.myUL { margin: 20px auto; border-collapse: collapse; }
+        table.myUL th, table.myUL td { border: 1px solid #ccc; padding: 10px; text-align: center; }
+    </style>
 </head>
-<header>
-    <h1>Welcome to my site</h1>
+<body>
+    <header>
+        <h1>Welcome to my site</h1>
+        <p>Learn more about my soccer journey</p>
+        <hr>
+        <img src="Joao Maia.png" alt="Page logo" width="500" height="300" class="center">
+        <hr>
+        <nav>
+            <h3>
+                <a href="index.html">Home</a> |
+                <select name="assignment" id="" onchange="window.location.href=this.value;">
+                    <option value="">Select Option</option>
+                    <option value="Assignment1.html">Assignment 1</option>
+                    <option value="forms.html">Assignment 2</option>
+                </select> |
+                <a href="contact.html">Contact</a> |
+                <a href="about-me.html">About Me</a>
+            </h3>
+        </nav>
+    </header>
+    
+    <h1>This is week two assignment</h1>
+    <p>These are my favorite sports.</p>
+    <div class="container">
+        <ol class="myUL">
+            <li>Soccer</li>
+            <li>Futsal</li>
+            <li>Basketball</li>
+        </ol>
+    </div>
+    
     <br>
-    <p>Learn more about my soccer journey</p>
+    <a href="https://bushnellbeacons.com/sports/mens-soccer" target="_blank">Beacon's men's soccer page</a>
+    
     <hr>
-    <img src="Joao Maia.png" alt="Page logo" width="500" height="300" class="center">
+    <img src="Bushnell mens pic.webp" alt="Men's soccer" width="500" height="300">
+    
     <hr>
-    <nav>
-        <h3>
-        <a href="index.html">Home</a> |
-        <select name="assignment" id="" onchange= "window.location.href=this.value;">
-            <option value="">Select Option</option>
-            <option value="Assignment1.html">Assignment1 </option>
-            <option value="forms.html"> Assignment2</option>
-        </select>   |
-        <a href="contact.html">contact</a> |
-        <a href="about-me.html">About me</a> 
-    </h3>
-    </nav>
-</header>
-</body>
-<h1>This is week two assignment</h1>
-<br>
-<p>These are my favorite sports.</p>
-<div class="container">
-<ol class="myUL">
-    <li> soccer</li>
-    <li>futsal</li>
-    <li>basketball</li>
-</ol>
-</div>
-<br>
-<a href="https://bushnellbeacons.com/sports/mens-soccer" target="_blank">Beacon's men's soccer page</a>
-<hr>
-<img src="Bushnell mens pic.webp" alt="Men's soccer" width="500" height="300">
-<hr>
-<table border ="1">
-    <tr>
-        <th>Name</th>
-        <th>Nationality</th>
-        <th>Position</th>
-    </tr>
-    <tr>
-        <th>Joao</th>
-        <th>Brazil</th>
-        <th>Striker</th>
-    </tr>
-    <tr>
-        <th>Ian</th>
-        <th>Brazil</th>
-        <th>Midfielder</th>
-    </tr>
-    <tr>
-        <th>Jacob</th>
-        <th>Australia</th>
-        <th>Midfielder</th>
-    </tr>
-</table>
-
-<!--<br> skips a line-->
-<!--<hr> separates content with a line-->
-<br>
-<footer>
-    <p>Author: Joao Maia<br>
-        <a href="mailto:jpmascarenhasmaia@example.com">jpmascarenhasmaia@example.com</a></p>
-  </footer>
-  
+    <div class="container">
+        <table border="1" class="myUL">
+            <tr>
+                <th>Name</th>
+                <th>Nationality</th>
+                <th>Position</th>
+            </tr>
+            <tr>
+                <td>Joao</td>
+                <td>Brazil</td>
+                <td>Striker</td>
+            </tr>
+            <tr>
+                <td>Ian</td>
+                <td>Brazil</td>
+                <td>Midfielder</td>
+            </tr>
+            <tr>
+                <td>Jacob</td>
+                <td>Australia</td>
+                <td>Midfielder</td>
+            </tr>
+        </table>
+    </div>
+    
+    <br>
+    <footer>
+        <p>Author: Joao Maia<br>
+            <a href="mailto:jpmascarenhasmaia@example.com">jpmascarenhasmaia@example.com</a>
+        </p>
+    </footer>
 </body>
 </html>
