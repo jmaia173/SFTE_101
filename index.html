@@ -3,10 +3,9 @@
 <head>
 <title>Joao's career</title>
 <link rel="stylesheet" href="styles.css">
-<script type="text/javascript" src="js/Eu.JPG"></script>
-<script type="text/javascript" src="js/Fluminense.jpg.webp"></script>
-<script type="text/javascript" src="js/NAIA.png.webp"></script>
-<script type="text/javascript" src="js/NCAA.webp"></script>
+<script type="text/javascript" src="js/cycle2.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+
 </head>
 <header>
     <h1>Welcome to my site</h1>
@@ -35,14 +34,56 @@
 <p>The purpose of this site is to share my own journey and passion towards soccer and try to help students from all over the world to come and study in the U.S.</p>
 <br>
 
-<div class="cycle-slideshow">
+<div class="col col-md-8 push-down-sm">
+						
+    <div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true">
+        
+        <span class="cycle-prev">&laquo;</span>
+        <span class="cycle-next">&raquo;</span>
+        
+        <span class="cycle-pager"></span>
+        
+        <div class="slide">
+            <img src="images/Fluminense.jpg.webp" alt="Fluminense">
 
-    <img src="js/Fluminense.jpg.webp" alt="Fluminense champion" width="500" height="300">
-    <img src="js/NAIA.png.webp" alt="NAIA logo" width="500" height="300">
-    <img src="js/NCAA.webp" alt="NCAA logo" width="500" height="300">
-    <img src="js/Eu.JPG" alt="Joao playing" width="500" height="300">
-    
-</div>
+            <div class="slide-text">
+                <h3>Bee Title Here!</h3>
+                <p>This is the caption or descriptive text for the bee slide. <a href="#" class="btn-a">Call to action!</a> </p>
+            </div>
+
+        </div>
+
+        <div class="slide">
+            <img src="images/NAIA.png.webp" alt="NAIA">
+
+            <div class="slide-text">
+                <h3>Duck Title Here!</h3>
+                <p>This is the caption or descriptive text for the duck slide.</p>
+            </div>
+
+        </div>
+
+        <div class="slide">
+            <img src="images/NCAA.webp" alt="NCAA">
+
+            <div class="slide-text">
+                <h3>Squirrel Title Here!</h3>
+                <p>This is the caption or descriptive text for the squirrel slide.</p>
+            </div>
+
+        </div>
+
+        <div class="slide">
+            <img src="images/Eu.JPG" alt="Me">
+
+            <div class="slide-text">
+                <h3>Squirrel Title Here!</h3>
+                <p>This is the caption or descriptive text for the squirrel slide.</p>
+            </div>
+
+        </div>
+
+    </div>
 <footer>
     <p>Author: Joao Maia<br>
     <a href="mailto:jpmascarenhasmaia@gmail.com">jpmascarenhasmaia@gmail.com</a></p>
