@@ -9,4 +9,3 @@ img {display: block; margin-left: auto; margin-right: auto; background-blend-mod
 ol {align: center;}
 header {background-color: darkgrey; border-style: ridge; border-width: 3px; color: black;}
 a {text-align: center;}
-#navbar {position: sticky; top: 0; overflow: hidden; background-color: #333;}
