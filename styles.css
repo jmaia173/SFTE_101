@@ -7,4 +7,4 @@ h4 {text-align: center;}
 p {text-align: center;}
 img {display: block; margin-left: auto; margin-right: auto;}
 ol {align: center;}
-header {background-color: rgba(0, 0, 0, 0.142); border-style: ridge; border-width: 3px; color: white;}
+header {background-color: darkgrey; border-style: ridge; border-width: 3px; color: black;}
