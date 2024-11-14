@@ -5,6 +5,6 @@ h2 {text-align: center;}
 h3 {text-align: center;}
 h4 {text-align: center;}
 p {text-align: center;}
-img {display: block; margin-left: auto; margin-right: auto;}
+img {display: block; margin-left: auto; margin-right: auto; background-blend-mode:normal;}
 ol {align: center;}
 header {background-color: darkgrey; border-style: ridge; border-width: 3px; color: black;}
