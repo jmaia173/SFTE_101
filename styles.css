@@ -15,16 +15,12 @@ nav {
 }
 
 /* Optional: Styling for other elements */
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, p {
     text-align: center;
 }
 
 h5 {
     font-weight: bold;
-}
-
-p {
-    text-align: center;
 }
 
 img {
