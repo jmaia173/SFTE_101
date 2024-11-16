@@ -1,13 +1,50 @@
-body {background-color: white; color: black;}
-nav {text-align: center; position: sticky; top: 0; z-index: 1000;}
-h1 {text-align: center;}
-h2 {text-align: center;}
-h3 {text-align: center;}
-h4 {text-align: center;}
-h5 {font-weight: bold;}
-p {text-align: center;}
-img {display: block; margin-left: auto; margin-right: auto; background-blend-mode:lighten;}
-ol {align: center;}
-header {background-color: darkgrey; border-style: ridge; border-width: 3px; color: black;}
-.hide-bg {mix-blend-mode: multiply; filter: contrast(1);}
-.about-paragraph {padding: 20px;}
+/* Ensure full height for body and html */
+html, body {
+    height: 100%;
+    margin: 0;  /* Reset margin */
+}
+
+/* Make the navbar sticky */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;  /* Ensure it stays above other content */
+    background-color: white;  /* Optional: Background color for clarity */
+    box-shadow: 0 4px 2px -2px gray;  /* Optional: Adds shadow for better visibility */
+    padding: 10px 0;  /* Optional: Adds some padding */
+}
+
+/* Optional: Styling for other elements */
+h1, h2, h3, h4, h5, p {
+    text-align: center;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: darkgrey;
+    border-style: ridge;
+    border-width: 3px;
+    color: black;
+}
+
+.hide-bg {
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+}
+
+.about-paragraph {
+    padding: 20px;
+}
