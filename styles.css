@@ -1,5 +1,5 @@
 body {background-color: white; color: black;}
-.navbar {text-align: center; position: sticky;}
+nav {text-align: center; position: sticky; top: 0; z-index: 1000;}
 h1 {text-align: center;}
 h2 {text-align: center;}
 h3 {text-align: center;}
