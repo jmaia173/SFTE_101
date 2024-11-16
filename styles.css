@@ -10,3 +10,4 @@ img {display: block; margin-left: auto; margin-right: auto; background-blend-mod
 ol {align: center;}
 header {background-color: darkgrey; border-style: ridge; border-width: 3px; color: black;}
 .hide-bg {mix-blend-mode: multiply; filter: contrast(1);}
+.about-paragraph {padding: 20px;}
