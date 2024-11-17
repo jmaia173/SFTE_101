@@ -43,3 +43,51 @@ header {
 .about-paragraph {
     padding: 20px;
 }
+
+/* Styling for the table */
+table.myUL {
+    width: 100%; /* Make the table expand to full width */
+    border-collapse: collapse; /* Collapses borders between table cells */
+    margin-top: 20px; /* Adds space above the table */
+    font-family: 'Arial', sans-serif; /* Custom font */
+}
+
+/* Styling for table headers */
+table.myUL th {
+    background-color: #007bff; /* Blue background for headers */
+    color: white; /* White text color */
+    padding: 12px 20px; /* Add padding inside the header cells */
+    text-align: center; /* Center-align text */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Styling for table cells */
+table.myUL td {
+    padding: 10px 20px; /* Add padding inside the table cells */
+    text-align: center; /* Center-align text */
+    border: 1px solid #ddd; /* Light grey borders around cells */
+}
+
+/* Alternating row colors */
+table.myUL tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light grey background for even rows */
+}
+
+table.myUL tr:nth-child(odd) {
+    background-color: #ffffff; /* White background for odd rows */
+}
+
+/* Add hover effect for rows */
+table.myUL tr:hover {
+    background-color: #ddd; /* Darker grey background when hovering over rows */
+}
+
+/* Optional: Add borders to the table itself */
+table.myUL {
+    border: 1px solid #ddd;
+}
+
+/* Optional: Add padding to the table container */
+.table-container {
+    padding: 20px;
+}
