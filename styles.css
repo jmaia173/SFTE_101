@@ -28,6 +28,33 @@ img {
     margin-right: auto;
 }
 
+/* Ensure the list is centered */
+.myUL {
+    text-align: center; /* Center the text of the list items */
+    margin: 0 auto; /* Centers the list itself within its container */
+    padding-left: 0; /* Remove default padding from the list */
+    max-width: 600px; /* Optional: Set a max width to prevent the list from stretching too far */
+}
+
+/* Center the link container */
+.link-container {
+    text-align: center; /* Centers the text inside the link container */
+    margin: 20px auto; /* Centers the container itself */
+}
+
+.link-container a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the link text bold */
+    font-size: 1.1rem; /* Optional: Adjust font size */
+}
+
+/* Hover effect for the link */
+.link-container a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
 header {
     background-color: darkgrey;
     border-style: ridge;
