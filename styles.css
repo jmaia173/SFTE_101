@@ -50,6 +50,7 @@ table.myUL {
     border-collapse: collapse; /* Collapses borders between table cells */
     margin-top: 20px; /* Adds space above the table */
     font-family: 'Arial', sans-serif; /* Custom font */
+    padding: 10px;
 }
 
 /* Styling for table headers */
