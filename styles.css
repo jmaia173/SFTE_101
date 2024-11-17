@@ -92,3 +92,85 @@ table.myUL {
 .table-container {
     padding: 20px;
 }
+
+/* Center the form container */
+.centered-form {
+    background-color: #fff; /* White background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    width: 100%;
+    max-width: 500px; /* Max width for form */
+}
+
+/* Styling for form groups (labels + inputs) */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Styling for labels */
+label {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Styling for input fields */
+input[type="text"], input[type="radio"], textarea {
+    width: 100%; /* Full width */
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+/* Styling for the submit button */
+input[type="submit"] {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+
+/* Focus effect for inputs and textarea */
+input[type="text"]:focus, textarea:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none;
+}
+
+/* Styling for radio buttons */
+input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Styling for textareas */
+textarea {
+    resize: vertical;
+    font-size: 1rem;
+    border-color: #ccc;
+}
+
+/* Placeholder styling */
+input::placeholder, textarea::placeholder {
+    color: #999;
+}
+
+/* Adjust for mobile view */
+@media (max-width: 600px) {
+    .centered-form {
+        padding: 20px;
+    }
+}
