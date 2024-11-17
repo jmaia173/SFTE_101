@@ -101,6 +101,7 @@ table.myUL {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
     width: 100%;
     max-width: 500px; /* Max width for form */
+    box-sizing: border-box;
 }
 
 /* Styling for form groups (labels + inputs) */
