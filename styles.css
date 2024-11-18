@@ -130,6 +130,7 @@ table.myUL {
     max-width: 500px; /* Max width for form */
     box-sizing: border-box;
     align-items: center;
+    align-self: center;
 }
 
 /* Styling for form groups (labels + inputs) */
