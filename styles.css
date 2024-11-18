@@ -120,14 +120,6 @@ table.myUL {
     padding: 20px;
 }
 
-.center-form {
-    height: 100%; /* Full height */
-  margin: 0; /* Remove default margin */
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-}
-
 /* Center the form container */
 .centered-form {
     background-color: #fff; /* White background */
@@ -138,7 +130,6 @@ table.myUL {
     max-width: 500px; /* Max width for form */
     box-sizing: border-box;
     align-items: center;
-    align-self: center;
 }
 
 /* Styling for form groups (labels + inputs) */
