@@ -120,6 +120,14 @@ table.myUL {
     padding: 20px;
 }
 
+.center-form {
+    height: 100%; /* Full height */
+  margin: 0; /* Remove default margin */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
 /* Center the form container */
 .centered-form {
     background-color: #fff; /* White background */
