@@ -29,8 +29,43 @@ img {
     margin-right: auto;
 }
 
+/* Styling for Section Headers */
+.section-header {
+    font-size: 1.75rem; /* Larger font size */
+    font-weight: bold;  /* Bold text */
+    color: #333;        /* Dark color for the header */
+    margin-bottom: 15px; /* Space below the header */
+    text-transform: uppercase; /* Optional: uppercase for a modern look */
+}
+
+/* Styling for Text Paragraphs */
 .index-text {
-    text-align: left;
+    font-size: 1rem;  /* Adjust the font size for readability */
+    color: #555;       /* Slightly lighter color for text */
+    text-align: justify; /* Justify text for a neat block of text */
+}
+
+/* Button Styling */
+.btn-outline-danger {
+    margin-top: 20px; /* Space above the button */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 5px; /* Slightly rounded corners for the button */
+}
+
+/* Responsive image styling */
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Container padding */
+.container {
+    padding: 40px 15px; /* Add padding to the container */
+}
+
+/* Add space between sections */
+.container .row {
+    margin-bottom: 30px; /* Add space between the rows */
 }
 
 /* Ensure the list is centered */
