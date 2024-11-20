@@ -180,12 +180,30 @@ table.myUL {
     justify-content: space-between;
     align-items: center;
   }
-
-/* Styling for form groups (labels + inputs) */
-.form-group {
+  
+  /* Styling for form groups (labels + inputs) */
+  .form-group {
     margin-bottom: 20px;
-}
-
+  }
+  
+  /* Center radio buttons and stack them vertically */
+  .form-group.radio-group {
+    display: flex;
+    flex-direction: column; /* Stack radio buttons vertically */
+    align-items: center; /* Center horizontally */
+    width: 100%;
+  }
+  
+  /* Align the radio button and label horizontally with text on the right */
+  .form-group.radio-group input[type="radio"] {
+    margin-left: 10px; /* Space between the radio button and the label */
+  }
+  
+  /* Optional: Adjust the appearance of the label to ensure no line breaks */
+  .form-group.radio-group label {
+    display: inline-block;
+  }
+  
 /* Styling for labels */
 label {
     font-weight: bold;
