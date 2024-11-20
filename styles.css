@@ -160,8 +160,14 @@ table.myUL {
     padding: 20px;
 }
 
-/* Center the form container */
-.centered-form {
+.center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures it takes full viewport height for vertical centering */
+  }
+  
+  .centered-form {
     background-color: #fff; /* White background */
     padding: 30px;
     border-radius: 8px;
@@ -169,9 +175,11 @@ table.myUL {
     width: 100%;
     max-width: 500px; /* Max width for form */
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-}
+  }
 
 /* Styling for form groups (labels + inputs) */
 .form-group {
