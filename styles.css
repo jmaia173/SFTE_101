@@ -9,9 +9,9 @@ html, body {
     position: sticky;
     top: 0;
     z-index: 1000;  /* Ensure it stays above other content */
-    background-color: white;  /* Optional: Background color for clarity */
-    box-shadow: 0 4px 2px -2px gray;  /* Optional: Adds shadow for better visibility */
-    padding: 10px 0;  /* Optional: Adds some padding */
+    background-color: white;  /*  Background color for clarity */
+    box-shadow: 0 4px 2px -2px gray;  /*  Adds shadow for better visibility */
+    padding: 10px 0;  /*  Adds some padding */
 }
 
 h1, h2, h3, h4, p {
@@ -170,6 +170,7 @@ table.myUL {
     max-width: 500px; /* Max width for form */
     box-sizing: border-box;
     align-items: center;
+    justify-content: center;
 }
 
 /* Styling for form groups (labels + inputs) */
