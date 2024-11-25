@@ -178,108 +178,135 @@ table.myUL {
     padding: 20px;
 }
 
+
+/*This is my form CSS*/
+
+
 .center-div {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Ensures it takes full viewport height for vertical centering */
-  }
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 30px;
+}
   
-  .centered-form {
-    background-color: #fff; /* White background */
+.centered-form {
+    background-color: #fff;
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 500px; /* Max width for form */
+    max-width: 600px;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
+}
   
-  /* Styling for form groups (labels + inputs) */
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  /* Center radio buttons and stack them vertically */
-  .form-group.radio-group {
-    display: flex;
-    flex-direction: column; /* Stack radio buttons vertically */
-    align-items: center; /* Center horizontally */
+ /* Add Font Awesome icons for visual appeal */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+/* Progress Bar Styling */
+.progress-bar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+progress {
     width: 100%;
-  }
-  
-  /* Align the radio button and label horizontally with text on the right */
-  .form-group.radio-group input[type="radio"] {
-    margin-left: 10px; /* Space between the radio button and the label */
-  }
-  
-  /* Optional: Adjust the appearance of the label to ensure no line breaks */
-  .form-group.radio-group label {
-    display: inline-block;
-  }
-  
-/* Styling for labels */
-label {
-    font-weight: bold;
-    font-size: 1rem;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+/* Form title and description */
+.centered-form h2 {
+    font-size: 2rem;
     color: #333;
-    display: block;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
-/* Styling for input fields */
-input[type="text"], input[type="radio"], textarea {
-    width: 100%; /* Full width */
+.centered-form p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Radio button icon styling */
+.radio-group input[type="radio"] {
+    display: none;
+}
+
+.radio-group label {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
     padding: 10px;
-    border: 1px solid #ccc; /* Light border */
-    border-radius: 4px; /* Rounded corners */
+    transition: 0.3s;
+}
+
+.radio-group input[type="radio"]:checked + label {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.radio-group label i {
+    margin-right: 8px;
+}
+
+/* Select box styling */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Input and textarea styling */
+input[type="text"], input[type="tel"], input[type="url"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     box-sizing: border-box;
     font-size: 1rem;
 }
 
-/* Styling for the submit button */
+/* Submit Button Styling */
 input[type="submit"] {
-    background-color: #007bff; /* Blue background */
-    color: white; /* White text */
-    font-size: 1.1rem;
+    background-color: #007bff;
+    color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 1.1rem;
+    width: 100%;
     transition: background-color 0.3s ease;
 }
 
-/* Hover effect for submit button */
 input[type="submit"]:hover {
-    background-color: #0056b3; /* Darker blue */
+    background-color: #0056b3;
 }
 
-/* Focus effect for inputs and textarea */
-input[type="text"]:focus, textarea:focus {
-    border-color: #007bff; /* Blue border on focus */
-    outline: none;
+/* Make form content more engaging */
+.centered-form .form-group {
+    margin-bottom: 20px;
 }
 
-/* Styling for radio buttons */
-input[type="radio"] {
-    width: auto;
-    margin-right: 10px;
-}
-
-/* Styling for textareas */
-textarea {
+.centered-form textarea {
     resize: vertical;
-    font-size: 1rem;
-    border-color: #ccc;
+    height: 150px;
 }
 
-/* Placeholder styling */
-input::placeholder, textarea::placeholder {
-    color: #999;
+/* Styling for the progress bar */
+.progress-bar progress {
+    width: 100%;
+}
+
+.centered-form .form-group input, .centered-form .form-group textarea {
+    font-size: 1rem;
 }
 
 /* Adjust for mobile view */
