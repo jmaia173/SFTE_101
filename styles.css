@@ -14,6 +14,24 @@ html, body {
     padding: 10px 0;  /*  Adds some padding */
 }
 
+/* Center the content in the navbar */
+.navbar .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Optional: Adjust the navbar items to be spaced and centered */
+.navbar h3 {
+    margin: 0;
+}
+
+/* Ensure proper spacing for navbar buttons */
+.navbar .btn {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 h1, h2, h3, h4, p {
     text-align: center;
 }
