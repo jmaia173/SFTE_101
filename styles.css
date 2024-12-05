@@ -1,7 +1,7 @@
-
 html, body {
     height: 100%;
     margin: 0;  /* Reset margin */
+    font-family: 'Arial', sans-serif; /* Set a global font for consistency */
 }
 
 /* Make the navbar sticky */
@@ -9,9 +9,9 @@ html, body {
     position: sticky;
     top: 0;
     z-index: 1000;  /* stays above other content */
-    background-color: white;  /*  Background color for clarity */
-    box-shadow: 0 4px 2px -2px gray;  /*  Adds shadow for better visibility */
-    padding: 10px 0;  /*  Adds some padding */
+    background-color: white;  /* Background color for clarity */
+    box-shadow: 0 4px 2px -2px gray;  /* Adds shadow for better visibility */
+    padding: 10px 0;  /* Adds some padding */
 }
 
 /* Center the content in the navbar */
@@ -32,6 +32,7 @@ html, body {
     margin-right: 10px;
 }
 
+/* General Text Alignment */
 h1, h2, h3, h4, p {
     text-align: center;
 }
@@ -178,10 +179,9 @@ table.myUL {
     padding: 20px;
 }
 
-
 /*This is my form CSS*/
 
-
+/* Center the form vertically and horizontally */
 .center-div {
     display: flex;
     justify-content: center;
@@ -311,5 +311,35 @@ input[type="submit"]:hover {
 @media (max-width: 600px) {
     .centered-form {
         padding: 20px;
+    }
+    
+    /* Adjust the navbar for mobile */
+    .navbar .container {
+        flex-direction: column; /* Stack navbar items vertically */
+    }
+
+    .navbar .btn {
+        margin: 5px 0; /* Reduce spacing between buttons */
+    }
+
+    .section-header {
+        font-size: 1.5rem; /* Reduce header font size */
+    }
+
+    .index-text {
+        font-size: 0.9rem; /* Adjust text size for better readability */
+    }
+    
+    .container {
+        padding: 15px; /* Reduce container padding on mobile */
+    }
+
+    /* Adjust table styling for smaller screens */
+    table.myUL th, table.myUL td {
+        padding: 8px; /* Less padding in smaller tables */
+    }
+
+    .container .row {
+        margin-bottom: 15px; /* Less space between rows on mobile */
     }
 }
