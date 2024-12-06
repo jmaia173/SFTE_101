@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Student Visa Information</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="py-5 shadow mb-5">
+        <div class="row">
+            <div class="col-md-8 small">
+                <h1 class="display-4">Student Visa Information</h1>
+                <p class="lead">Everything you need to know about getting a U.S. student visa to study and play soccer.</p>
+            </div>
+            <div class="col-md-4 small">
+                <img class="hide-bg" src="Joao Maia.png" alt="Page logo" width="300" height="150">
+            </div>
+        </div>
+    </header>
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <div class="d-flex justify-content-center w-100">
+                <h3>
+                    <a href="index.html" class="btn btn-outline-primary btn-lg mx-2">Home</a>
+                    <a href="about-me.html" class="btn btn-outline-primary btn-lg mx-2">About Me</a>
+                    <a href="forms.html" class="btn btn-outline-primary btn-lg mx-2">Sign Up Form</a>
+                    <a href="contact.html" class="btn btn-outline-primary btn-lg mx-2">Contact Me</a>
+                </h3>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <!-- Introduction to Student Visa -->
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <h5 class="section-header">What is a Student Visa?</h5>
+                <p class="index-text">A student visa allows international students to legally study in the United States. For those who wish to study and play sports, such as soccer, the F-1 visa is the most common choice. It allows students to study, work part-time on campus, and participate in college sports teams.</p>
+            </div>
+        </div>
+
+<br>
+
+        <!-- Types of U.S. Student Visas -->
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <h5 class="section-header">Types of U.S. Student Visas</h5>
+                <ul class="index-text">
+                    <li><strong>F-1 Visa</strong>: For academic students attending universities, colleges, high schools, and other accredited educational institutions.</li>
+                    <li><strong>M-1 Visa</strong>: For vocational students attending non-academic institutions such as technical schools.</li>
+                    <li><strong>J-1 Visa</strong>: For exchange visitors, including those on educational or cultural exchange programs, like sports exchange programs.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <img src="Visa.png" alt="Visa Image" width="600" height="200">
+            </div>
+        </div>
+
+<br>
+
+        <!-- F-1 Visa Process -->
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <h5 class="section-header">F-1 Visa Process</h5>
+                <p class="index-text">The F-1 visa is the most popular choice for international students. Here's a quick rundown of the application process:</p>
+                <ol class="index-text">
+                    <li><strong>Apply to a U.S. institution:</strong> Get accepted into an SEVP-certified school.</li>
+                    <li><strong>Get your I-20 Form:</strong> The school will provide you with an I-20 form, required for your visa application.</li>
+                    <li><strong>Pay the SEVIS Fee:</strong> Pay the SEVIS fee online.</li>
+                    <li><strong>Complete the DS-160:</strong> Fill out the DS-160 form online.</li>
+                    <li><strong>Schedule Your Visa Interview:</strong> Set up an interview at your local U.S. embassy or consulate.</li>
+                    <li><strong>Attend the Interview:</strong> Bring your DS-160 confirmation, I-20 form, passport, fee receipt, and proof of financial support.</li>
+                    <li><strong>Visa Approval:</strong> If approved, your visa will be stamped into your passport.</li>
+                </ol>
+            </div>
+        </div>
+
+<br>
+
+        <!-- Student Visa for Athletes -->
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <h5 class="section-header">Student Visa for Athletes</h5>
+                <p class="index-text">Athletes on an F-1 visa have unique opportunities and responsibilities while studying and playing sports in the U.S. Here's an overview of key points:</p>
+                
+                <ul class="index-text">
+                    <li><strong>Sports Scholarships:</strong> Many U.S. universities offer sports scholarships based on athletic performance. These can help cover tuition and living costs.</li>
+                    
+                    <li><strong>Eligibility to Play:</strong> To compete, athletes must meet requirements set by organizations like the NCAA, NAIA, or NJCAA, including academic standards and amateur status.</li>
+                    
+                    <li><strong>Work-Study Opportunities:</strong> F-1 students can work on-campus, including in sports-related roles such as athletic support or coaching assistant. Off-campus work may also be allowed with specific authorization like CPT or OPT.</li>
+                    
+                    <li><strong>Recruitment Process:</strong> Athletes can be recruited by U.S. colleges through showcases, tournaments, or recruitment agencies. It's important to connect with coaches and programs early on.</li>
+            
+                    <li><strong>Maintaining Visa Status:</strong> Athletes must balance academic performance and athletic commitments to maintain F-1 status and eligibility to play.</li>
+                </ul>
+                
+            </div>
+            <div class="col-md-6">
+                <img src="Student-Chart.png" alt="Chart Image" width="600" height="400">
+            </div>
+        </div>
+
+        <!-- FAQ Accordion Section -->
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="my-4 text-center">Frequently Asked Questions</h3>
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+                                How long is the F-1 student visa valid for?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                The F-1 visa is typically valid for the duration of your academic program, plus an additional 60 days for preparation before departure.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingTwo">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                                Can I work while studying in the U.S. on an F-1 visa?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Yes, F-1 visa holders can work part-time on-campus during the academic year (up to 20 hours/week) and full-time during breaks.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingThree">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
+                                Can I bring my family with me on an F-1 visa?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Yes, your spouse and children under 21 can accompany you on an F-2 visa, but they cannot work.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+   <!-- Footer Section -->
+   <footer class="text-center py-3 bg-dark text-light">
+    <p>&copy; 2024 Joao Maia | All Rights Reserved</p>
+</footer>
+
+<!-- Bootstrap JS (necessary for dropdowns, modals, etc.) -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
