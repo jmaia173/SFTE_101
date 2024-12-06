@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>International Students & Athletes Guide</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="py-5 shadow mb-5">
+        <div class="row">
+            <div class="col-md-8 small">
+                <h1 class="display-4">Welcome to the start of your journey</h1>
+                <p class="lead">Learn more about my soccer path</p>
+            </div>
+            <div class="col-md-4 small">
+                <img class="hide-bg" src="Joao Maia.png" alt="Page logo" width="300" height="150">
+            </div>
+        </div>
+    </header>
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <div class="d-flex justify-content-center w-100">
+                <h3>
+                    <a href="index.html" class="btn btn-outline-primary btn-lg mx-2">Home</a>
+                    <a href="about-me.html" class="btn btn-outline-primary btn-lg mx-2">About Me</a>
+                    <a href="forms.html" class="btn btn-outline-primary btn-lg mx-2">Sign Up Form</a>
+                    <a href="contact.html" class="btn btn-outline-primary btn-lg mx-2">Contact</a>
+                </h3>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <!-- Introduction -->
+        <div class="row">
+            <h3>Welcome, Future Student-Athletes and International Scholars!</h3>
+            <br>
+            <p>Studying and participating in sports in the U.S. can be an amazing experience, but it comes with its own challenges. Whether you're here to play sports or earn a degree, this guide will provide you with the key tips to help you succeed academically, socially, and athletically in the U.S.</p>
+        </div>
+
+        <br>
+
+        <!-- Tips for Adapting to Life in the U.S. -->
+        <div class="row">
+            <div class="col-md-6">
+                <h5 class="section-header">Adapting to the U.S. Culture</h5>
+                <p class="index-text">
+                    When you first arrive in the U.S., it can feel overwhelming. From understanding cultural norms to getting used to the academic system, here are some tips to make your transition smoother:
+                    <ul>
+                        <li>Join international student groups to meet people with similar backgrounds.</li>
+                        <li>Attend campus events to get involved in university life.</li>
+                        <li>Learn about U.S. communication styles, such as directness and small talk.</li>
+                        <li>Keep an open mind and be patient with yourself as you adjust to new cultural norms.</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="International-Athletes.jpg" alt="International Students" width="500" height="300">
+            </div>
+        </div>
+
+        <br>
+
+        <!-- Scholarships and Financial Support -->
+        <div class="row">
+            <div class="col-md-6">
+                <h5 class="section-header">Finding Scholarships for International Students & Athletes</h5>
+                <p class="index-text">
+                    Scholarships can make studying and competing in the U.S. more affordable. Here’s where to look:
+                    <ul>
+                        <li>Check with the university’s financial aid office for international student-specific scholarships.</li>
+                        <li>Explore athletic scholarships by talking to your coach or sports department.</li>
+                        <li>Search online scholarship databases such as Fastweb, Scholarship.com, and Niche.</li>
+                        <li>Apply for external scholarships offered by foundations, governments, and international organizations.</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- Tips for Student-Athletes -->
+        <div class="row">
+            <div class="col-md-6">
+                <h5 class="section-header">Succeeding as a Student-Athlete</h5>
+                <p class="index-text">
+                    Balancing academics and athletics can be demanding, but it’s not impossible. Here are some strategies to help you thrive:
+                    <ul>
+                        <li>Stay organized: Use a planner or calendar to track both academic deadlines and sports schedules.</li>
+                        <li>Communicate with your professors: Let them know your athletic commitments so they can support you when conflicts arise.</li>
+                        <li>Maintain a healthy lifestyle: Nutrition, sleep, and physical fitness are key to staying on top of both school and sports.</li>
+                        <li>Stay positive and resilient: Sports can teach you valuable lessons in discipline and perseverance that will help you succeed in the classroom as well.</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="success-graph.png" alt="Student Success" width="400" height="350">
+            </div>
+        </div>
+
+        <!-- Advice for Mental Health and Wellness -->
+        <div class="container">
+            <h3 class="my-4">Prioritizing Mental Health</h3>
+            <p>Adapting to a new country, especially as a student-athlete, can be stressful. It’s important to take care of your mental health by:</p>
+            <ul>
+                <li>Utilizing counseling services available on campus.</li>
+                <li>Building a support network of friends and teammates.</li>
+                <li>Practicing mindfulness techniques such as meditation and yoga to relieve stress.</li>
+                <li>Being open to talking about mental health, which is an important part of maintaining overall well-being.</li>
+            </ul>
+            <a href="mental-health.html" class="btn btn-outline-info">Learn More About Mental Health Resources</a>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="container">
+            <h3 class="my-4">Frequently Asked Questions</h3>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeadingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+                            How can I balance athletics and academics effectively?
+                        </button>
+                    </h2>
+                    <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Effective time management and clear communication with your professors and coaches are key. Use tools like planners or apps to organize your time.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeadingTwo">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                            Are there specific scholarships for student-athletes?
+                        </button>
+                    </h2>
+                    <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, many universities offer athletic scholarships based on your performance in sports. Talk to your coach or athletic director to learn more.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>For more information or support, please visit our <a href="contact.html" class="text-white">Contact</a> page.</p>
+            <p>&copy; 2024 Joao Maia | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS & Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybBdRm3F1WgR4A9bdH5nxtVf6Fi2BO8eWZ2czpQX8L5TElXQK1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0p6X/2j/E6gA2I5J54u3bqZ/xzppMJS9K6xWoEInQh9sgctB" crossorigin="anonymous"></script>
+</body>
+</html>
